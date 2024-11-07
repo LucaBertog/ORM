@@ -56,7 +56,7 @@ class ChatGeral(BaseModel):
 
 def inicializar_banco():
     db.connect()
-    db.create_tables([Jogo, Noticia, Usuario, Mensagens]) 
+    db.create_tables([Jogo, Noticia, Usuario, Mensagens, ChatGeral]) 
     db.close()
 
 
